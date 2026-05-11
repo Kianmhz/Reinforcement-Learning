@@ -1,0 +1,11 @@
+# Install PyTorch separately, picking the CUDA build that matches your driver:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# Then install everything below.
+
+stable-baselines3>=2.3.0
+gymnasium>=0.29
+tensorboard>=2.16
+numpy>=1.26
+opencv-python>=4.9         # used in Phase 3 for HSV masking
+pyyaml>=6.0                # config files
+tqdm>=4.66

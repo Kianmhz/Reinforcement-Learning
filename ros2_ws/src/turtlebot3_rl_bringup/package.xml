@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtlebot3_rl_bringup</name>
+  <version>0.0.1</version>
+  <description>Launch files and training worlds for the turtlebot_rl project.</description>
+  <maintainer email="haddad.kianm@gmail.com">Kian</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
+  <exec_depend>turtlebot3_description</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
